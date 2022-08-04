@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+    var loginCadastrado = "iza";
+    var senhaCadastrada = "iza321";
+    var loginInformado = prompt("Informe seu login");
+    var senhaInformada = prompt("Informe sua senha");
+    var tentativa=0;
+    
+ while(tentativa<3){
+    if( loginCadastrado == loginInformado && senhaCadastrada == senhaInformada ) {
+        alert("Bem-vindo ao sistema " + loginInformado);
+        tentativa=tentativa+3;
+    } else {
+        if(loginCadastrado !== loginInformado && tentativa<3 || senhaCadastrada  !== senhaInformada && tentativa <3){
+        alert("Login inválido. Tente novamente! ");}
+        if(tentativa<=3){
+          loginInformado = prompt("Informe seu login");
+        senhaInformada = prompt("Informe sua senha");
+        tentativa=tentativa+1;} 
+          if(tentativa>=3){
+      alert("Você ultrapassou o limite de tentativas. ");
+    }
+        } 
+      } 
+</script>
+Ok
