@@ -1,0 +1,23 @@
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+//minha alteracao
+/*legendas=x2 é y2 é a linha 2 do triângulo, movex e movey é a direção de onde o pincel irá começar a se mover */
+  
+    function desenhaTriangulo(cor,x,y,movex,movey,x2, y2){
+      pincel.fillStyle=cor;
+      pincel.beginPath();
+      pincel.moveTo(movex,movey);
+      pincel.lineTo(x,y);
+      pincel.lineTo(x2,y2);
+      pincel.fill();
+      
+    }
+desenhaTriangulo("blue",50,400,50, 50,400,400);
+desenhaTriangulo("yellow",100,350,100, 175,275, 350)
+
+</script>
