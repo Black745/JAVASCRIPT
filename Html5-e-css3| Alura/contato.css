@@ -1,0 +1,98 @@
+header{
+  Background-color:#BBBBBB;
+  Padding:20px 0;
+}
+.caixa{
+  Position:relative;
+  Width:100%;
+  Margin:0 auto ;
+} 
+Nav{
+  Position:absolute;
+  Top:110px;
+  right:40px;
+}
+Nav li{
+  Display:inline;
+  Margin:0 0 0 15px;
+}
+Nav a{
+  Text-transform:uppercase;
+  Font-weight:bold;
+  Text-decoration:none;
+  Font-size:22px;
+  Color:#000000;
+}
+Nav a:hover{
+  Color:#ffc854;
+  Text-decoration:underline;
+}
+main {
+    width:100;
+    margin: 0 auto;
+    
+}
+
+form{
+    margin: 40px 10px;
+}
+
+form label,form legend{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+table {
+    margin: 20px 10px 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+Footer{
+  Text-align:center;
+  Background:url("bg.jpg");
+  Padding:40px 0;
+ 
+}
+.copyright{
+  Margin:0px ;
+  Font-size:13px;
+  Color:#FFFFFF;
+} 
+#alerta{
+  Display:inline;
+}
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background:green;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+  Background-color:#37f67d;
+  transform:scale(1.2);
+}

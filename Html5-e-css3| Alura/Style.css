@@ -1,0 +1,143 @@
+/* css da página inicial */
+header{
+  Background-color:#BBBBBB;
+  Padding:20px 0;
+}
+.caixa{
+  Position:relative;
+  Width:100%;
+  Margin:0 auto ;
+} 
+Nav{
+  Position:absolute;
+  Top:110px;
+  right:40px;
+}
+Nav li{
+  Display:inline;
+  Margin:0 0 0 15px;
+}
+Nav a{
+  Text-transform:uppercase;
+  Font-weight:bold;
+  Text-decoration:none;
+  Font-size:22px;
+  Color:#000000;
+}
+Nav a:hover{
+  Color:#ffc854;
+  Text-decoration:underline;
+}
+
+/*minha alteracao acima*/
+.banner {
+    width:100%;
+}
+Body{
+  font-family: 'Montserrat', sans-serif;
+  Width:100%; /*minha alteracao*/
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens:before {
+    content: "★";
+}
+.itens {
+    line-height: 1.5;
+    Margin:0 0 0 30px;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.imagem-beneficios {
+    width: 50%;
+    opacity:1;
+    Transition:400ms;
+    Box-shadow:10px 10px 0 #000000;
+    
+}
+.imagem-beneficios:hover{
+  opacity:0.3s;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.mapa-conteudo {
+    width:100%;
+    margin: 0 auto;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width:100%;
+    margin: 0 auto;
+}
+.imagemBeneficios {
+    width: 60%;
+}
+Footer{
+  Text-align:center;
+  Background:url("bg.jpg");
+  Padding:40px 0;
+ 
+}
+.copyright{
+  Margin:0px ;
+  Font-size:13px;
+  Color:#FFFFFF;
+}
+.mapa {
+    padding: 3em 0;
+    Margin:0 auto;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video {
+    width: 90%;
+    margin: 1em auto;
+}
+Iframe{
+  Margin:0 10px;
+}
